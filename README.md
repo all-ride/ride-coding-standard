@@ -16,3 +16,9 @@ Now you can run the following command:
 To try and fix what can be fixed, replace the `phpcs` command with `phpcbf`:
 
     phpcbf --standard=/path/to/ride-coding-standard/Ride /path/to/your/SourceFile.php
+
+## PHPStorm formatting file
+
+PHPStorm offers a built-in formatter. This formatter doesn't perform as many checks as codesniffer, but is useful to clean your code on the fly.
+
+Import `phpstorm_ride_codingstyle.xml` in PHPStorm by going to `settings` > `Editor` > `Code Style` > `PHP` and press the little cog icon to import a custom config.
